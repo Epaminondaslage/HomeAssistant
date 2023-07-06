@@ -36,7 +36,7 @@
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Em resumo, o Home Assistant Operating System &eacute; a escolha recomendada para a instala&ccedil;&atilde;o do Home Assistant, proporcionando um ambiente otimizado, seguro e de f&aacute;cil gerenciamento para a automa&ccedil;&atilde;o residencial.</span></span></span></p>
 
-<p style="text-align:center"><img alt="" src="img/Picture1.png" style="height:400px; width:450px" /></p>
+<p style="text-align:center"><img alt="" src="img/Picture1.png" style="height:400px; width:550px" /></p>
 
 <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Arquitetura Hass.io</span></span></span></p>
 
@@ -55,7 +55,7 @@
 <p style="text-align:justify">&nbsp;</p>
 
 <p style="text-align:center">&nbsp;</p>
-<p style="text-align:center"><img alt="" src="img/Picture2.png" style="height:400px; width:450px" /></p>
+<p style="text-align:center"><img alt="" src="img/Picture2.png" style="height:400px; width:550px" /></p>
 
 
 <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Loja de Add-ons do HA</span></span></span></p>
@@ -76,7 +76,7 @@
 
 <p style="text-align:center">&nbsp;</p>
 
-<p style="text-align:center"><img alt="" src="img/Picture3.png" style="height:400px; width:450px" /></p>
+<p style="text-align:center"><img alt="" src="img/Picture3.png" style="height:400px; width:550px" /></p>
 
 <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">M&oacute;dulos do Home Assistant</span></span></span></p>
 
@@ -103,7 +103,7 @@
 
 <p style="text-align:center">&nbsp;</p>
 
-<p style="text-align:center"><img alt="" src="img/Picture4.png" style="height:400px; width:450px" /></p>
+<p style="text-align:center"><img alt="" src="img/Picture4.png" style="height:400px; width:550px" /></p>
 
 
 <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Core Arquiteture - Home Assistant</span></span></span></p>
@@ -124,7 +124,7 @@
 
 <p style="text-align:center">&nbsp;</p>
 
-<p style="text-align:center"><img alt="" src="img/Picture5.png" style="height:400px; width:450px" /></p>
+<p style="text-align:center"><img alt="" src="img/Picture5.png" style="height:400px; width:550px" /></p>
 
 <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Componentes(atuadores/sensores) Home Assistant</span></span></span></p>
 
@@ -152,7 +152,7 @@
 
 <p style="text-align:center">&nbsp;</p>
 
-<p style="text-align:center"><img alt="" src="img/Picture6.png" style="height:400px; width:450px" /></p>
+<p style="text-align:center"><img alt="" src="img/Picture6.png" style="height:400px; width:550px" /></p>
 
 <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Tela de menu de configura&ccedil;&otilde;es do Home Assistant</span></span></span></p>
 
@@ -162,7 +162,7 @@
 
 <p style="text-align:center">&nbsp;</p>
 
-<p style="text-align:center"><img alt="" src="img/Picture7.png" style="height:400px; width:450px" /></p>
+<p style="text-align:center"><img alt="" src="img/Picture7.png" style="height:400px; width:550px" /></p>
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Arquivos YAML de configura&ccedil;&atilde;o do HA</span></span></span></p>
 
