@@ -1,4 +1,4 @@
-<p style="text-align:justify"><img alt="" src="img/Picture1.jpg" style="height:50px; width:50px" /></p>
+<p style="text-align:justify"><img alt="" src="img/Picture1.jpg" style="height:150px; width:150px" /></p>
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">O Home Assistant &eacute; uma plataforma de automa&ccedil;&atilde;o residencial descentralizada, gratuita e de c&oacute;digo aberto. Ele possibilita o controle de atuadores, interpreta&ccedil;&atilde;o de dados coletados por sensores, implementa&ccedil;&atilde;o de regras de automa&ccedil;&atilde;o e gerenciamento da comunica&ccedil;&atilde;o entre dispositivos. O Home Assistant pode ser executado em computadores Linux, em SBCs (Single Board Computers) com o sistema operacional dedicado Hass.io, ou em qualquer outro ambiente que possua Python e suas depend&ecirc;ncias instaladas.</span></span></span></p>
 
@@ -36,7 +36,7 @@
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Em resumo, o Home Assistant Operating System &eacute; a escolha recomendada para a instala&ccedil;&atilde;o do Home Assistant, proporcionando um ambiente otimizado, seguro e de f&aacute;cil gerenciamento para a automa&ccedil;&atilde;o residencial.</span></span></span></p>
 
-<p style="text-align:center"><img alt="" src="iimg/Picture1.png" style="height:100px; width:150px" /></p>
+<p style="text-align:center"><img alt="" src="img/Picture1.png" style="height:400px; width:450px" /></p>
 
 <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Arquitetura Hass.io</span></span></span></p>
 
@@ -55,6 +55,8 @@
 <p style="text-align:justify">&nbsp;</p>
 
 <p style="text-align:center">&nbsp;</p>
+<p style="text-align:center"><img alt="" src="img/Picture2.png" style="height:400px; width:450px" /></p>
+
 
 <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Loja de Add-ons do HA</span></span></span></p>
 
@@ -73,6 +75,8 @@
 </ol>
 
 <p style="text-align:center">&nbsp;</p>
+
+<p style="text-align:center"><img alt="" src="img/Picture3.png" style="height:400px; width:450px" /></p>
 
 <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">M&oacute;dulos do Home Assistant</span></span></span></p>
 
@@ -99,6 +103,9 @@
 
 <p style="text-align:center">&nbsp;</p>
 
+<p style="text-align:center"><img alt="" src="img/Picture4.png" style="height:400px; width:450px" /></p>
+
+
 <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Core Arquiteture - Home Assistant</span></span></span></p>
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Esses m&oacute;dulos trabalham em conjunto para permitir que o Home Assistant detecte eventos, verifique suas condi&ccedil;&otilde;es e acione as a&ccedil;&otilde;es correspondentes nos atuadores. Essa estrutura modular garante um controle eficiente e responsivo do sistema, permitindo automa&ccedil;&atilde;o e intera&ccedil;&atilde;o com os dispositivos conectados.</span></span></span></p>
@@ -116,6 +123,8 @@
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Dessa forma, o Home Assistant permite que os dispositivos sejam interconectados e controlados de forma inteligente, utilizando eventos, a&ccedil;&otilde;es e servi&ccedil;os, proporcionando uma integra&ccedil;&atilde;o fluida e permitindo a automa&ccedil;&atilde;o de tarefas e a intera&ccedil;&atilde;o entre os diferentes dispositivos em um ambiente de automa&ccedil;&atilde;o residencial.</span></span></span></p>
 
 <p style="text-align:center">&nbsp;</p>
+
+<p style="text-align:center"><img alt="" src="img/Picture5.png" style="height:400px; width:450px" /></p>
 
 <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Componentes(atuadores/sensores) Home Assistant</span></span></span></p>
 
@@ -143,6 +152,8 @@
 
 <p style="text-align:center">&nbsp;</p>
 
+<p style="text-align:center"><img alt="" src="img/Picture6.png" style="height:400px; width:450px" /></p>
+
 <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Tela de menu de configura&ccedil;&otilde;es do Home Assistant</span></span></span></p>
 
 <p style="text-align:justify">&nbsp;</p>
@@ -150,6 +161,8 @@
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Atrav&eacute;s desse processo de configura&ccedil;&atilde;o, podemos personalizar e adaptar o Home Assistant de acordo com nossas necessidades e criar automa&ccedil;&otilde;es que tornam a experi&ecirc;ncia de automa&ccedil;&atilde;o residencial mais conveniente e eficiente.</span></span></span></p>
 
 <p style="text-align:center">&nbsp;</p>
+
+<p style="text-align:center"><img alt="" src="img/Picture7.png" style="height:400px; width:450px" /></p>
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Arquivos YAML de configura&ccedil;&atilde;o do HA</span></span></span></p>
 
