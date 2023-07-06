@@ -1,4 +1,4 @@
-<p style="text-align:justify"><img alt="" src="img/figura1.jpg" style="height:30px; width:30px" /></p>
+<p style="text-align:justify"><img alt="" src="img/Picture1.jpg" style="height:50px; width:50px" /></p>
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">O Home Assistant &eacute; uma plataforma de automa&ccedil;&atilde;o residencial descentralizada, gratuita e de c&oacute;digo aberto. Ele possibilita o controle de atuadores, interpreta&ccedil;&atilde;o de dados coletados por sensores, implementa&ccedil;&atilde;o de regras de automa&ccedil;&atilde;o e gerenciamento da comunica&ccedil;&atilde;o entre dispositivos. O Home Assistant pode ser executado em computadores Linux, em SBCs (Single Board Computers) com o sistema operacional dedicado Hass.io, ou em qualquer outro ambiente que possua Python e suas depend&ecirc;ncias instaladas.</span></span></span></p>
 
@@ -36,9 +36,7 @@
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Em resumo, o Home Assistant Operating System &eacute; a escolha recomendada para a instala&ccedil;&atilde;o do Home Assistant, proporcionando um ambiente otimizado, seguro e de f&aacute;cil gerenciamento para a automa&ccedil;&atilde;o residencial.</span></span></span></p>
 
-<p style="text-align:justify"><img alt="" src="fig2" /></p>
-
-<p style="text-align:center"><img alt="" src="/img/fig2.jpg" style="height:40px; width:50px" /></p>
+<p style="text-align:center"><img alt="" src="iimg/Picture1.png" style="height:100px; width:150px" /></p>
 
 <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Arquitetura Hass.io</span></span></span></p>
 
