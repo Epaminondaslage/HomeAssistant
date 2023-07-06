@@ -5,7 +5,7 @@
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Uma das vantagens distintas do Home Assistant &eacute; sua capacidade de rodar em SBCs (Single Board Computers), como o Raspberry Pi, aproveitando eficientemente os recursos de hardware dispon&iacute;veis. Isso permite uma implanta&ccedil;&atilde;o econ&ocirc;mica em dispositivos de baixo custo, tornando o Home Assistant uma escolha popular entre os entusiastas da automa&ccedil;&atilde;o residencial.</span></span></span></p>
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">O Home Assistant oferece v&aacute;rias vantagens, como:</span></span></span></p>
-
+<ol>
 	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Gratuito e de c&oacute;digo aberto</span></span></span></li>
 	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Otimizado para rodar em SBCs</span></span></span></li>
 	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Permite a implanta&ccedil;&atilde;o de automa&ccedil;&otilde;es localmente</span></span></span></li>
