@@ -52,6 +52,12 @@ Existem 4 formas de instalar o Home Assistant:
  <Li>Home Assistant Core: Instalação do núcleo do Home Assistant em sistema operacional Linux usando ambiente virtual Python.</Li>
 </UL>
 
+# Integrações
+
+Na data de 15 de julho de 2023 , no sote do home hassitant existem 2450 integraçoes possíves. Entertanto esta nímero cresce diariamente e ainda existem as integração fornecidas pela comunidade
+
+<p style="text-align:center"><img alt="" src="img/Home Assistant integracoes.png" style="height:400px; width:550px" /></p>
+
 # Home Assistant Operating System
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Para facilitar a instala&ccedil;&atilde;o e utiliza&ccedil;&atilde;o do Home Assistant, foi desenvolvido o Hass.io, um sistema operacional customizado e configurado para executar o Home Assistant. O Home Assistant &eacute; gerenciado por um supervisor que roda dentro de um container Docker, o qual, por sua vez, &eacute; executado por um sistema operacional desenvolvido especificamente para SBCs. O supervisor possui uma API que gerencia os processos do Home Assistant e tamb&eacute;m &eacute; respons&aacute;vel por realizar atualiza&ccedil;&otilde;es do sistema.</span></span></span></p>
