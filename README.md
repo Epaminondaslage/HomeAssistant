@@ -115,7 +115,6 @@ Essa arquitetura modular do Home Assistant permite uma abordagem flexível e per
 Para uma melhor compreensão do funcionamento do Home Assistant, é importante definir os conceitos de evento, ação e serviço. Esses conceitos desempenham papéis fundamentais no sistema:
 
 <ol>
-
 <li>Evento: É um acontecimento observável pelo sistema que pode ou não alterar o estado de um atuador ou sensor. Representa uma mudança de estado ou interação detectada pelo sistema.</li>
 <li>Ação: É um evento que é acionado quando todas as suas condições necessárias são satisfeitas. Quando essas condições são atendidas, a ação correspondente é executada. As ações desencadeiam uma resposta do sistema, como acionar um atuador ou executar uma função específica.</li>
 <li>Serviço: São métodos executados pelo Home Assistant para realizar ações específicas. Representam funcionalidades e comandos disponíveis no sistema, como ligar/desligar uma luz, ajustar a temperatura de um termostato ou reproduzir música.</li>
@@ -124,6 +123,7 @@ Para uma melhor compreensão do funcionamento do Home Assistant, é importante d
 Para uma melhor compreensão do funcionamento do Home Assistant, é importante definir os conceitos de evento, ação e serviço. Esses conceitos desempenham papéis fundamentais no sistema. 
 
 Ao analisar o módulo Home Control mais detalhadamente, podemos dividi-lo em quatro componentes principais:
+
 <ol> 
 <li>Event Bus (Barramento de Eventos): Responsável por escutar e disparar eventos para os atuadores, mantendo a sincronia do sistema com o mundo real. Quando é necessário alterar o estado de um atuador ou sensor, o Event Bus dispara as ações correspondentes.</li>
 <li>State Machine (Máquina de Estados): Mantém um registro de todos os estados dos atuadores e comunica ao Event Bus quando algum estado é alterado. Monitora as mudanças de estado e notifica o Event Bus, permitindo o acionamento das ações de acordo com essas alterações.</li>
@@ -135,45 +135,40 @@ Ao analisar o módulo Home Control mais detalhadamente, podemos dividi-lo em qua
 
 Figura 4: Core Arquiteture - Home Assistant
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Esses m&oacute;dulos trabalham em conjunto para permitir que o Home Assistant detecte eventos, verifique suas condi&ccedil;&otilde;es e acione as a&ccedil;&otilde;es correspondentes nos atuadores. Essa estrutura modular garante um controle eficiente e responsivo do sistema, permitindo automa&ccedil;&atilde;o e intera&ccedil;&atilde;o com os dispositivos conectados.</span></span></span></p>
+Esses módulos trabalham em conjunto para permitir que o Home Assistant detecte eventos, verifique suas condições e acione as ações correspondentes nos atuadores. Essa estrutura modular garante um controle eficiente e responsivo do sistema, permitindo automação e interação com os dispositivos conectados.
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">O Home Assistant possui a capacidade de se comunicar com uma ampla variedade de dispositivos inteligentes para automa&ccedil;&atilde;o, mesmo que eles utilizem diferentes protocolos e padr&otilde;es de comunica&ccedil;&atilde;o. Para possibilitar essa comunica&ccedil;&atilde;o e permitir a integra&ccedil;&atilde;o dos dispositivos, o Home Assistant adota uma abordagem de tratamento e gerenciamento dos dispositivos.</span></span></span></p>
+O Home Assistant possui a capacidade de se comunicar com uma ampla variedade de dispositivos inteligentes para automação, mesmo que eles utilizem diferentes protocolos e padrões de comunicação. Para possibilitar essa comunicação e permitir a integração dos dispositivos, o Home Assistant adota uma abordagem de tratamento e gerenciamento dos dispositivos.
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Pode-se</span><span style="font-family:&quot;Calibri&quot;,sans-serif"> observar que, para estabelecer a comunica&ccedil;&atilde;o com o Home Assistant, s&atilde;o necess&aacute;rios os atuadores e sensores, representados pelo Light Bulb (l&acirc;mpada) e Motion Detector (sensor de movimento), respectivamente. Al&eacute;m disso, &eacute; necess&aacute;rio contar com uma camada de software que confere intelig&ecirc;ncia aos atuadores e sensores, como o Hue Platform e o Z-Wave Platform, os quais s&atilde;o executados diretamente pelos dispositivos.</span></span></span></p>
+Pode-se observar que, para estabelecer a comunicação com o Home Assistant, são necessários os atuadores e sensores, representados pelo Light Bulb (lâmpada) e Motion Detector (sensor de movimento), respectivamente. Além disso, é necessário contar com uma camada de software que confere inteligência aos atuadores e sensores, como o Hue Platform e o Z-Wave Platform, os quais são executados diretamente pelos dispositivos.
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Por parte do Home Assistant, &eacute; necess&aacute;rio contar com uma camada de software respons&aacute;vel por implementar os protocolos utilizados pelos atuadores e sensores, seguindo as mesmas regras e padr&otilde;es de comunica&ccedil;&atilde;o estabelecidos por eles. Essa camada de software &eacute; representada pelo Light Component.</span></span></span></p>
+Por parte do Home Assistant, é necessário contar com uma camada de software responsável por implementar os protocolos utilizados pelos atuadores e sensores, seguindo as mesmas regras e padrões de comunicação estabelecidos por eles. Essa camada de software é representada pelo Light Component.
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Uma vez que os sensores e atuadores est&atilde;o adaptados e integrados ao Home Assistant, &eacute; necess&aacute;rio representar cada inst&acirc;ncia desses dispositivos para que possam ser manipulados utilizando os conceitos de evento, a&ccedil;&atilde;o e servi&ccedil;o. Essa camada de representa&ccedil;&atilde;o das inst&acirc;ncias dos dispositivos &eacute; denominada Entities.</span></span></span></p>
+Uma vez que os sensores e atuadores estão adaptados e integrados ao Home Assistant, é necessário representar cada instância desses dispositivos para que possam ser manipulados utilizando os conceitos de evento, ação e serviço. Essa camada de representação das instâncias dos dispositivos é denominada Entities.
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Dessa forma, o Home Assistant permite que os dispositivos sejam interconectados e controlados de forma inteligente, utilizando eventos, a&ccedil;&otilde;es e servi&ccedil;os, proporcionando uma integra&ccedil;&atilde;o fluida e permitindo a automa&ccedil;&atilde;o de tarefas e a intera&ccedil;&atilde;o entre os diferentes dispositivos em um ambiente de automa&ccedil;&atilde;o residencial.</span></span></span></p>
+Dessa forma, o Home Assistant permite que os dispositivos sejam interconectados e controlados de forma inteligente, utilizando eventos, ações e serviços, proporcionando uma integração fluida e permitindo a automação de tarefas e a interação entre os diferentes dispositivos em um ambiente de automação residencial.
 
 <p style="text-align:center"><img alt="" src="img/Picture5.png" style="height:400px; width:550px" /></p>
+Figura 5: Componentes(atuadores/sensores) Home Assistant
 
-<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Figura 5: Componentes(atuadores/sensores) Home Assistant</span></span></span></p>
+No Home Assistant, é necessário adicionar uma camada de software para se comunicar com os protocolos e padrões dos atuadores. Esses softwares podem ser adicionados ao Home Assistant por meio de add-ons baixados na loja virtual do sistema. Após configurar todas as dependências necessárias, é hora de realizar a configuração de automações e a instanciação de atuadores e sensores, quando eles não forem identificados automaticamente.
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">No Home Assistant, &eacute; necess&aacute;rio adicionar uma camada de software para se comunicar com os protocolos e padr&otilde;es dos atuadores. Esses softwares podem ser adicionados ao Home Assistant por meio de add-ons baixados na loja virtual do sistema. Ap&oacute;s configurar todas as depend&ecirc;ncias necess&aacute;rias, &eacute; hora de realizar a configura&ccedil;&atilde;o de automa&ccedil;&otilde;es e a instancia&ccedil;&atilde;o de atuadores e sensores, quando eles n&atilde;o forem identificados automaticamente.</span></span></span></p>
-
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Existem dois arquivos principais de configura&ccedil;&atilde;o no Home Assistant:</span></span></span></p>
-
+Existem dois arquivos principais de configuração no Home Assistant:
 <ol>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">settings.yaml: Neste arquivo, especificamos as inst&acirc;ncias de todas as entidades do sistema. Aqui, definimos as configura&ccedil;&otilde;es para cada atuador e sensor presente no ambiente.</span></span></span></li>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">automations.yaml: Neste arquivo, definimos os padr&otilde;es de comportamento, tamb&eacute;m conhecidos como automa&ccedil;&otilde;es, para as entidades do sistema. Aqui, podemos criar regras e cen&aacute;rios para automatizar tarefas e acionar a&ccedil;&otilde;es com base em eventos e condi&ccedil;&otilde;es espec&iacute;ficas.</span></span></span></li>
+	<li>settings.yaml: Neste arquivo, especificamos as instâncias de todas as entidades do sistema. Aqui, definimos as configurações para cada atuador e sensor presente no ambiente.</li>
+	<li>automations.yaml: Neste arquivo, definimos os padrões de comportamento, também conhecidos como automações, para as entidades do sistema. Aqui, podemos criar regras e cenários para automatizar tarefas e acionar ações com base em eventos e condições específicas.</li>
 </ol>
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Embora utilizemos o formato YAML, projetado para serializar dados de forma leg&iacute;vel para humanos, configurar as automa&ccedil;&otilde;es e as configura&ccedil;&otilde;es do sistema ainda pode ser um processo complexo. Para tornar esse processo mais intuitivo e &aacute;gil, o Home Assistant introduziu uma interface web que apresenta de maneira clara e simples todas as entidades e sensores dispon&iacute;veis no sistema.</span></span></span></p>
+Embora utilizemos o formato YAML, projetado para serializar dados de forma legível para humanos, configurar as automações e as configurações do sistema ainda pode ser um processo complexo. Para tornar esse processo mais intuitivo e ágil, o Home Assistant introduziu uma interface web que apresenta de maneira clara e simples todas as entidades e sensores disponíveis no sistema.
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Ao utilizar o editor de automa&ccedil;&otilde;es na interface web, precisamos definir quatro par&acirc;metros essenciais para configurar uma automa&ccedil;&atilde;o:</span></span></span></p>
-
+Ao utilizar o editor de automações na interface web, precisamos definir quatro parâmetros essenciais para configurar uma automação:
 <ol>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Nome: Damos um nome descritivo para a automa&ccedil;&atilde;o, que nos ajuda a identific&aacute;-la facilmente.</span></span></span></li>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Gatilhos: Especificamos os eventos ou condi&ccedil;&otilde;es que devem acionar a automa&ccedil;&atilde;o. Por exemplo, um gatilho pode ser o acionamento de um sensor de movimento ou o hor&aacute;rio do dia.</span></span></span></li>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Condi&ccedil;&otilde;es: Definimos as condi&ccedil;&otilde;es adicionais que devem ser atendidas para que a automa&ccedil;&atilde;o seja executada. Por exemplo, podemos exigir que uma luz esteja ligada antes de acionar uma a&ccedil;&atilde;o relacionada.</span></span></span></li>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">A&ccedil;&otilde;es: Determinamos as a&ccedil;&otilde;es que devem ser executadas quando a automa&ccedil;&atilde;o &eacute; acionada. Isso pode incluir ligar ou desligar dispositivos, enviar notifica&ccedil;&otilde;es, reproduzir sons, entre outras possibilidades.</span></span></span></li>
+   <l1>Nome: Damos um nome descritivo para a automação, que nos ajuda a identificá-la facilmente.</l1>
+   <l1> Gatilhos: Especificamos os eventos ou condições que devem acionar a automação. Por exemplo, um gatilho pode ser o acionamento de um sensor de movimento ou o horário do dia.</l1>
+    <l1>Condições: Definimos as condições adicionais que devem ser atendidas para que a automação seja executada. Por exemplo, podemos exigir que uma luz esteja ligada antes de acionar uma ação relacionada.</l1>
+    <l1>Ações: Determinamos as ações que devem ser executadas quando a automação é acionada. Isso pode incluir ligar ou desligar dispositivos, enviar notificações, reproduzir sons, entre outras possibilidades.</l1>
 </ol>
-
 <p style="text-align:center"><img alt="" src="img/Picture6.png" style="height:400px; width:550px" /></p>
-
-<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Figura 6: Tela de menu de configura&ccedil;&otilde;es do Home Assistant</span></span></span></p>
+Figura 6: Tela de menu de configurações do Home Assistant
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Atrav&eacute;s desse processo de configura&ccedil;&atilde;o, podemos personalizar e adaptar o Home Assistant de acordo com nossas necessidades e criar automa&ccedil;&otilde;es que tornam a experi&ecirc;ncia de automa&ccedil;&atilde;o residencial mais conveniente e eficiente.</span></span></span></p>
 
