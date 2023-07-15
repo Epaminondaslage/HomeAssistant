@@ -5,7 +5,7 @@
 
 # Índice 
 
-* [Sites relacionados ao Home Assistant](Sites-relacionados-ao-Home-Assistant)
+* [Sites relacionados ao Home Assistant](#Sites-relacionados-ao-Home-Assistant)
 * [Introdução](#Introdução)
 * [Home Assistant Operating System](#Home-Assistant-Operating-System)
 * [Add-on no Home Assistant](#Add-on-no-Home-Assistant)
