@@ -71,7 +71,7 @@
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">A loja de add-ons do Home Assistant inclui componentes de terceiros disponibilizados no GitHub, bem como add-ons oficiais que oferecem diversas funcionalidades, como MQTT Home Broker, servidor DNS (Domain Name System), servidor de arquivos, servidor SSH (Secure Shell), entre outros. Essa combina&ccedil;&atilde;o de Home Assistant com a capacidade de adicionar funcionalidades por meio de add-ons impulsiona a escalabilidade e a capacidade de personaliza&ccedil;&atilde;o da plataforma.</span></span></span></p>
 
-# Módulos do Home Assitant
+# Módulos do Home Assistant
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">O Home Assistant possui uma arquitetura composta por cinco m&oacute;dulos principais, cada um desempenhando um papel espec&iacute;fico no sistema. Esses m&oacute;dulos s&atilde;o:</span></span></span></p>
 
