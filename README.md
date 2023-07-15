@@ -78,23 +78,20 @@ Figura 1: Arquitetura Hass.io
 
 # Add-on no Home Assistant
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">O Home Assistant oferece um recurso chamado add-ons, que permite adicionar funcionalidades extras ao sistema. Os add-ons s&atilde;o m&oacute;dulos de software adicionais que podem ser instalados no Home Assistant para estender suas capacidades. Eles fornecem recursos adicionais, como integra&ccedil;&atilde;o com servi&ccedil;os de terceiros, suporte a dispositivos espec&iacute;ficos e ferramentas de automa&ccedil;&atilde;o avan&ccedil;adas.</span></span></span></p>
+O Home Assistant oferece um recurso chamado add-ons, que permite adicionar funcionalidades extras ao sistema. Os add-ons são módulos de software adicionais que podem ser instalados no Home Assistant para estender suas capacidades. Eles fornecem recursos adicionais, como integração com serviços de terceiros, suporte a dispositivos específicos e ferramentas de automação avançadas.
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Os add-ons s&atilde;o gerenciados pelo Supervisor, que faz parte do Home Assistant Operating System. O Supervisor oferece uma interface de gerenciamento f&aacute;cil de usar para instalar, configurar e atualizar os add-ons.</span></span></span></p>
+Os add-ons são gerenciados pelo Supervisor, que faz parte do Home Assistant Operating System. O Supervisor oferece uma interface de gerenciamento fácil de usar para instalar, configurar e atualizar os add-ons.
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Voc&ecirc; pode explorar e instalar novos add-ons diretamente na interface do usu&aacute;rio do Home Assistant. Existem muitos add-ons dispon&iacute;veis na loja oficial de add-ons do Home Assistant, al&eacute;m de contribui&ccedil;&otilde;es de comunidades e desenvolvedores externos.</span></span></span></p>
+Você pode explorar e instalar novos add-ons diretamente na interface do usuário do Home Assistant. Existem muitos add-ons disponíveis na loja oficial de add-ons do Home Assistant, além de contribuições de comunidades e desenvolvedores externos.
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Os add-ons do Home Assistant s&atilde;o empacotados como cont&ecirc;ineres Docker, o que facilita sua instala&ccedil;&atilde;o e isolamento do sistema principal. Eles s&atilde;o executados em paralelo com o Home Assistant Core, permitindo expandir as funcionalidades do sistema sem interferir em sua opera&ccedil;&atilde;o principal.</span></span></span></p>
+Os add-ons do Home Assistant são empacotados como contêineres Docker, o que facilita sua instalação e isolamento do sistema principal. Eles são executados em paralelo com o Home Assistant Core, permitindo expandir as funcionalidades do sistema sem interferir em sua operação principal.
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Com os add-ons, voc&ecirc; pode personalizar e aprimorar seu sistema Home Assistant de acordo com suas necessidades espec&iacute;ficas, adicionando recursos e integra&ccedil;&otilde;es com outros servi&ccedil;os e dispositivos.</span></span></span></p>
-
-<p style="text-align:center">&nbsp;</p>
+Com os add-ons, você pode personalizar e aprimorar seu sistema Home Assistant de acordo com suas necessidades específicas, adicionando recursos e integrações com outros serviços e dispositivos.
 
 <p style="text-align:center"><img alt="" src="img/Picture2.png" style="height:400px; width:550px" /></p>
+Figura 2: Loja de Add-ons do HA
 
-<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Figura 2: Loja de Add-ons do HA</span></span></span></p>
-
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">A loja de add-ons do Home Assistant inclui componentes de terceiros disponibilizados no GitHub, bem como add-ons oficiais que oferecem diversas funcionalidades, como MQTT Home Broker, servidor DNS (Domain Name System), servidor de arquivos, servidor SSH (Secure Shell), entre outros. Essa combina&ccedil;&atilde;o de Home Assistant com a capacidade de adicionar funcionalidades por meio de add-ons impulsiona a escalabilidade e a capacidade de personaliza&ccedil;&atilde;o da plataforma.</span></span></span></p>
+A loja de add-ons do Home Assistant inclui componentes de terceiros disponibilizados no GitHub, bem como add-ons oficiais que oferecem diversas funcionalidades, como MQTT Home Broker, servidor DNS (Domain Name System), servidor de arquivos, servidor SSH (Secure Shell), entre outros. Essa combinação de Home Assistant com a capacidade de adicionar funcionalidades por meio de add-ons impulsiona a escalabilidade e a capacidade de personalização da plataforma.
 
 # Módulos do Home Assistant
 
