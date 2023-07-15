@@ -7,6 +7,7 @@
 
 * [Introdução](#Introdução)
 * [Home Assistant Operating System](#Home-Assistant-Operating-System)
+* [Add-on no Home Assistant](#Add-on-noHome-Assistant)
 
 # Introdução
 
@@ -48,7 +49,7 @@
 
 <p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Figura 1: Arquitetura Hass.io</span></span></span></p>
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-family:&quot;Calibri&quot;,sans-serif">Add-on no Home Assistant</span></strong></span></span></p>
+# Add-on no Home Assistant
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">O Home Assistant oferece um recurso chamado add-ons, que permite adicionar funcionalidades extras ao sistema. Os add-ons s&atilde;o m&oacute;dulos de software adicionais que podem ser instalados no Home Assistant para estender suas capacidades. Eles fornecem recursos adicionais, como integra&ccedil;&atilde;o com servi&ccedil;os de terceiros, suporte a dispositivos espec&iacute;ficos e ferramentas de automa&ccedil;&atilde;o avan&ccedil;adas.</span></span></span></p>
 
