@@ -6,7 +6,7 @@
 # Índice 
 
 * [Introdução](#Introdução)
-* [Home Assistant Operating System](#Home-Assistant-Operating-System
+* [Home Assistant Operating System](#Home-Assistant-Operating-System)
 
 # Introdução
 
