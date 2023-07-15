@@ -161,6 +161,7 @@ Existem dois arquivos principais de configuração no Home Assistant:
 Embora utilizemos o formato YAML, projetado para serializar dados de forma legível para humanos, configurar as automações e as configurações do sistema ainda pode ser um processo complexo. Para tornar esse processo mais intuitivo e ágil, o Home Assistant introduziu uma interface web que apresenta de maneira clara e simples todas as entidades e sensores disponíveis no sistema.
 
 Ao utilizar o editor de automações na interface web, precisamos definir quatro parâmetros essenciais para configurar uma automação:
+
 <ol>
 <li>Nome: Damos um nome descritivo para a automação, que nos ajuda a identificá-la facilmente.</li>
 <li> Gatilhos: Especificamos os eventos ou condições que devem acionar a automação. Por exemplo, um gatilho pode ser o acionamento de um sensor de movimento ou o horário do dia.</li>
@@ -170,11 +171,10 @@ Ao utilizar o editor de automações na interface web, precisamos definir quatro
 <p style="text-align:center"><img alt="" src="img/Picture6.png" style="height:400px; width:550px" /></p>
 Figura 6: Tela de menu de configurações do Home Assistant
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Atrav&eacute;s desse processo de configura&ccedil;&atilde;o, podemos personalizar e adaptar o Home Assistant de acordo com nossas necessidades e criar automa&ccedil;&otilde;es que tornam a experi&ecirc;ncia de automa&ccedil;&atilde;o residencial mais conveniente e eficiente.</span></span></span></p>
+Através desse processo de configuração, podemos personalizar e adaptar o Home Assistant de acordo com nossas necessidades e criar automações que tornam a experiência de automação residencial mais conveniente e eficiente.
 
 <p style="text-align:center"><img alt="" src="img/Picture7.png" style="height:400px; width:550px" /></p>
-
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif"> Figura 7: Arquivos YAML de configura&ccedil;&atilde;o do HA</span></span></span></p>
+Figura 7: Arquivos YAML de configuração do HA</span></span></span></p>
 
 <p>&nbsp;</p>
 
