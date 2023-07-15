@@ -54,9 +54,9 @@ Existem 4 formas de instalar o Home Assistant:
 
 # Integrações
 
-Na data de 15 de julho de 2023 , no sote do home hassitant existem 2450 integraçoes possíves. Entertanto esta nímero cresce diariamente e ainda existem as integração fornecidas pela comunidade
+Na data de 15 de julho de 2023 , no sote do home hassitant existem 2450 integraçoes possíves. Entertanto esta número cresce diariamente e ainda existem as integração fornecidas pela comunidade
 
-<p style="text-align:center"><img alt="" src="img/Home Assistant integracoes.png" style="height:400px; width:550px" /></p>
+<p style="text-align:center"><img alt="" src="img/HomeAssistantintegracoes.png" style="height:400px; width:550px" /></p>
 
 # Home Assistant Operating System
 
