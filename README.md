@@ -1,3 +1,14 @@
+<td style="width: 20%;"><img src="https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/Logo_CEFET-MG.png" width="20%" /></td>
+<p><strong><span style="color: #0000ff;">Home Assistant </strong></p>
+<p><strong><span style="color: #0000ff;">Prof Epaminondas Lage</span></strong></p>
+<a href="http://lattes.cnpq.br/7787341723868111"> Currículo Lattes LAGE, E. S.</a> 
+
+# Índice 
+
+* [Introdução](#Introdução)
+
+# Introdução
+
 <p style="text-align:justify"><img alt="" src="img/Picture1.jpg" style="height:150px; width:150px" /></p>
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">O Home Assistant &eacute; uma plataforma de automa&ccedil;&atilde;o residencial descentralizada, gratuita e de c&oacute;digo aberto. Ele possibilita o controle de atuadores, interpreta&ccedil;&atilde;o de dados coletados por sensores, implementa&ccedil;&atilde;o de regras de automa&ccedil;&atilde;o e gerenciamento da comunica&ccedil;&atilde;o entre dispositivos. O Home Assistant pode ser executado em computadores Linux, em SBCs (Single Board Computers) com o sistema operacional dedicado Hass.io, ou em qualquer outro ambiente que possua Python e suas depend&ecirc;ncias instaladas.</span></span></span></p>
@@ -146,3 +157,7 @@
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif"> Figura 7: Arquivos YAML de configura&ccedil;&atilde;o do HA</span></span></span></p>
 
 <p>&nbsp;</p>
+
+# Status do Projeto
+
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
