@@ -5,11 +5,18 @@
 
 # Índice 
 
+* [Sites relacionados ao Home Assistant](Sites-relacionados-ao-Home-Assistant)
 * [Introdução](#Introdução)
 * [Home Assistant Operating System](#Home-Assistant-Operating-System)
 * [Add-on no Home Assistant](#Add-on-no-Home-Assistant)
 * [Módulos do Home Assitant](#Módulos-do-Home-Assistant)
 * [Home Control](#Home-Control)
+
+
+# Sites relacionados ao Home Assistant
+
+* https://www.home-assistant.io/
+* https://homeassistantbrasil.com.br/
 
 # Introdução
 
@@ -32,6 +39,18 @@
 </ul>
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">O Home Assistant &eacute; projetado para operar de forma aut&ocirc;noma e local, sem depender de uma conex&atilde;o cont&iacute;nua com a nuvem. Isso significa que todas as automa&ccedil;&otilde;es e regras s&atilde;o executadas diretamente no dispositivo, proporcionando maior privacidade, seguran&ccedil;a e desempenho. A instala&ccedil;&atilde;o do Home Assistant &eacute; simplificada e flex&iacute;vel, com op&ccedil;&otilde;es como o Hass.io, um sistema operacional otimizado para o Home Assistant, que facilita a configura&ccedil;&atilde;o e o gerenciamento do sistema.</span></span></span></p>
+
+# Instalação 
+
+Para instalar o Home Assistant, é recomendado um sistema dedicado como um Raspberry Pi, Mini PC, Notebook ou até mesmo um PC velhinho que está encostado. Caso você não tenha um hardware dedicado, é possível instalar em uma maquina virtual (VM) em sua máquina com Windows, Linux ou MacOS.
+
+Existem 4 formas de instalar o Home Assistant:
+<UL>
+   <Li>HassOS – Home Assistant Operational System (Sistema Operacional do Home Assistant): Um sistema operacional Linux otimizado para a execução do Home Assistant. Ele conta com o Supervisor para gerenciar o núcleo do Home Assistant e seus add-ons.</Li>
+    <Li>* Home Assistant Container: Instalação do Home Assistant em sistema operacional Linux baseada em containers (Por exemplo, Docker).</Li>
+    <Li>Home Assistant Supervised: Instalação manual do Home Assistant com suporte ao supervisor para a instalação de add-ons. Esse método deve ser executado em uma instalação de Debian Linux e é o preferido de quem utiliza o mesmo hardware para executar outras tarefas, por exemplo Plex Media Server, entre outros…</Li>
+ <Li>Home Assistant Core: Instalação do núcleo do Home Assistant em sistema operacional Linux usando ambiente virtual Python.</Li>
+</UL>
 
 # Home Assistant Operating System
 
