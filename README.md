@@ -29,8 +29,6 @@ Uma das vantagens distintas do Home Assistant é sua capacidade de rodar em SBCs
 O Home Assistant oferece várias vantagens, como:
 
 <ul>
-
- 
 <li>Gratuito e de código aberto </li>
 <li>Otimizado para rodar em SBCs </li>
 <li>Permite a implantação de automações localmente </li>
@@ -98,7 +96,7 @@ A loja de add-ons do Home Assistant inclui componentes de terceiros disponibiliz
 # Módulos do Home Assistant
 
 O Home Assistant possui uma arquitetura composta por cinco módulos principais, cada um desempenhando um papel específico no sistema. Esses módulos são:
-
+<ol>
 <li>Home Control: O módulo Home Control é responsável por coletar informações e controlar os atuadores do sistema. Ele permite monitorar e interagir com dispositivos conectados, como interruptores, sensores de movimento, câmeras, termostatos e muito mais. O Home Control fornece uma interface unificada para visualizar e controlar esses dispositivos.</li>
 <li>User Management: O módulo User Management lida com a gestão de usuários no sistema Home Assistant. Ele permite criar contas de usuário, definir permissões e controlar o acesso aos recursos e configurações do sistema. O User Management garante que cada usuário tenha sua própria experiência personalizada e níveis apropriados de controle e acesso.</li>
 <li>Home Automation: O módulo Home Automation é responsável por acionar comandos e ações com base nas configurações fornecidas pelos usuários. Ele permite criar regras e automações personalizadas para controlar os dispositivos conectados. Por exemplo, é possível configurar uma automação para ligar as luzes quando um sensor de movimento for acionado ou ajustar a temperatura do termostato com base em horários específicos.</li>
