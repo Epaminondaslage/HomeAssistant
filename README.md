@@ -162,10 +162,10 @@ Embora utilizemos o formato YAML, projetado para serializar dados de forma legí
 
 Ao utilizar o editor de automações na interface web, precisamos definir quatro parâmetros essenciais para configurar uma automação:
 <ol>
-   <l1>Nome: Damos um nome descritivo para a automação, que nos ajuda a identificá-la facilmente.</l1>
-   <l1> Gatilhos: Especificamos os eventos ou condições que devem acionar a automação. Por exemplo, um gatilho pode ser o acionamento de um sensor de movimento ou o horário do dia.</l1>
-    <l1>Condições: Definimos as condições adicionais que devem ser atendidas para que a automação seja executada. Por exemplo, podemos exigir que uma luz esteja ligada antes de acionar uma ação relacionada.</l1>
-    <l1>Ações: Determinamos as ações que devem ser executadas quando a automação é acionada. Isso pode incluir ligar ou desligar dispositivos, enviar notificações, reproduzir sons, entre outras possibilidades.</l1>
+<li>Nome: Damos um nome descritivo para a automação, que nos ajuda a identificá-la facilmente.</li>
+<li> Gatilhos: Especificamos os eventos ou condições que devem acionar a automação. Por exemplo, um gatilho pode ser o acionamento de um sensor de movimento ou o horário do dia.</li>
+<li>Condições: Definimos as condições adicionais que devem ser atendidas para que a automação seja executada. Por exemplo, podemos exigir que uma luz esteja ligada antes de acionar uma ação relacionada.</li>
+<li>Ações: Determinamos as ações que devem ser executadas quando a automação é acionada. Isso pode incluir ligar ou desligar dispositivos, enviar notificações, reproduzir sons, entre outras possibilidades.</li>
 </ol>
 <p style="text-align:center"><img alt="" src="img/Picture6.png" style="height:400px; width:550px" /></p>
 Figura 6: Tela de menu de configurações do Home Assistant
