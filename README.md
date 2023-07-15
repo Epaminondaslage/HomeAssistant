@@ -110,25 +110,25 @@ O Home Assistant possui uma arquitetura composta por cinco módulos principais, 
 
 Figura 3: Módulos do Home Assistant
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Essa arquitetura modular do Home Assistant permite uma abordagem flex&iacute;vel e personaliz&aacute;vel para controlar e automatizar uma casa inteligente. Os diferentes m&oacute;dulos trabalham em conjunto para fornecer uma experi&ecirc;ncia de automa&ccedil;&atilde;o residencial completa e abrangente.</span></span></span></p>
+Essa arquitetura modular do Home Assistant permite uma abordagem flexível e personalizável para controlar e automatizar uma casa inteligente. Os diferentes módulos trabalham em conjunto para fornecer uma experiência de automação residencial completa e abrangente.
 
 # Home Control
 
 Para uma melhor compreensão do funcionamento do Home Assistant, é importante definir os conceitos de evento, ação e serviço. Esses conceitos desempenham papéis fundamentais no sistema:
 
-<ul>
+<ol>
 
-    Evento: É um acontecimento observável pelo sistema que pode ou não alterar o estado de um atuador ou sensor. Representa uma mudança de estado ou interação detectada pelo sistema.
-    Ação: É um evento que é acionado quando todas as suas condições necessárias são satisfeitas. Quando essas condições são atendidas, a ação correspondente é executada. As ações desencadeiam uma resposta do sistema, como acionar um atuador ou executar uma função específica.
-    Serviço: São métodos executados pelo Home Assistant para realizar ações específicas. Representam funcionalidades e comandos disponíveis no sistema, como ligar/desligar uma luz, ajustar a temperatura de um termostato ou reproduzir música.
-</ul>
+<li>Evento: É um acontecimento observável pelo sistema que pode ou não alterar o estado de um atuador ou sensor. Representa uma mudança de estado ou interação detectada pelo sistema.</li>
+<li>Ação: É um evento que é acionado quando todas as suas condições necessárias são satisfeitas. Quando essas condições são atendidas, a ação correspondente é executada. As ações desencadeiam uma resposta do sistema, como acionar um atuador ou executar uma função específica.</li>
+<li>Serviço: São métodos executados pelo Home Assistant para realizar ações específicas. Representam funcionalidades e comandos disponíveis no sistema, como ligar/desligar uma luz, ajustar a temperatura de um termostato ou reproduzir música.</li>
+</ol>
 
 Para uma melhor compreensão do funcionamento do Home Assistant, é importante definir os conceitos de evento, ação e serviço. Esses conceitos desempenham papéis fundamentais no sistema. 
 
 Ao analisar o módulo Home Control mais detalhadamente, podemos dividi-lo em quatro componentes principais:
 <ol> 
 <li>Event Bus (Barramento de Eventos): Responsável por escutar e disparar eventos para os atuadores, mantendo a sincronia do sistema com o mundo real. Quando é necessário alterar o estado de um atuador ou sensor, o Event Bus dispara as ações correspondentes.</li>
-<l1>State Machine (Máquina de Estados): Mantém um registro de todos os estados dos atuadores e comunica ao Event Bus quando algum estado é alterado. Monitora as mudanças de estado e notifica o Event Bus, permitindo o acionamento das ações de acordo com essas alterações.</l1>
+<li>State Machine (Máquina de Estados): Mantém um registro de todos os estados dos atuadores e comunica ao Event Bus quando algum estado é alterado. Monitora as mudanças de estado e notifica o Event Bus, permitindo o acionamento das ações de acordo com essas alterações.</li>
 <li>Service Registry (Registro de Serviços): Realiza a chamada dos serviços que, por sua vez, executam as ações nos atuadores. Gerencia e controla a execução dos serviços, responsáveis por manipular os atuadores conforme necessário.</li>
 <li>Timer (Temporizador): Responsável por atualizar a hora no Event Bus, emitindo um evento de mudança de tempo a cada segundo para o Home Control. Esse evento é importante para sincronizar ações programadas ou baseadas em horários específicos.</li>
 </ol>
