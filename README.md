@@ -107,34 +107,34 @@ A loja de add-ons do Home Assistant inclui componentes de terceiros disponibiliz
 
 <p style="text-align:center"><img alt="" src="img/Picture3.png" style="height:400px; width:550px" /></p>
 
-<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Figura 3: M&oacute;dulos do Home Assistant</span></span></span></p>
+Figura 3: Módulos do Home Assistant
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Essa arquitetura modular do Home Assistant permite uma abordagem flex&iacute;vel e personaliz&aacute;vel para controlar e automatizar uma casa inteligente. Os diferentes m&oacute;dulos trabalham em conjunto para fornecer uma experi&ecirc;ncia de automa&ccedil;&atilde;o residencial completa e abrangente.</span></span></span></p>
 
 # Home Control
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Para uma melhor compreens&atilde;o do funcionamento do Home Assistant, &eacute; importante definir os conceitos de evento, a&ccedil;&atilde;o e servi&ccedil;o. Esses conceitos desempenham pap&eacute;is fundamentais no sistema:</span></span></span></p>
+Para uma melhor compreensão do funcionamento do Home Assistant, é importante definir os conceitos de evento, ação e serviço. Esses conceitos desempenham papéis fundamentais no sistema:
 
 <ul>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Evento: &Eacute; um acontecimento observ&aacute;vel pelo sistema que pode ou n&atilde;o alterar o estado de um atuador ou sensor. Representa uma mudan&ccedil;a de estado ou intera&ccedil;&atilde;o detectada pelo sistema.</span></span></span></li>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">A&ccedil;&atilde;o: &Eacute; um evento que &eacute; acionado quando todas as suas condi&ccedil;&otilde;es necess&aacute;rias s&atilde;o satisfeitas. Quando essas condi&ccedil;&otilde;es s&atilde;o atendidas, a a&ccedil;&atilde;o correspondente &eacute; executada. As a&ccedil;&otilde;es desencadeiam uma resposta do sistema, como acionar um atuador ou executar uma fun&ccedil;&atilde;o espec&iacute;fica.</span></span></span></li>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Servi&ccedil;o: S&atilde;o m&eacute;todos executados pelo Home Assistant para realizar a&ccedil;&otilde;es espec&iacute;ficas. Representam funcionalidades e comandos dispon&iacute;veis no sistema, como ligar/desligar uma luz, ajustar a temperatura de um termostato ou reproduzir m&uacute;sica.</span></span></span></li>
+
+    Evento: É um acontecimento observável pelo sistema que pode ou não alterar o estado de um atuador ou sensor. Representa uma mudança de estado ou interação detectada pelo sistema.
+    Ação: É um evento que é acionado quando todas as suas condições necessárias são satisfeitas. Quando essas condições são atendidas, a ação correspondente é executada. As ações desencadeiam uma resposta do sistema, como acionar um atuador ou executar uma função específica.
+    Serviço: São métodos executados pelo Home Assistant para realizar ações específicas. Representam funcionalidades e comandos disponíveis no sistema, como ligar/desligar uma luz, ajustar a temperatura de um termostato ou reproduzir música.
 </ul>
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Para uma melhor compreens&atilde;o do funcionamento do Home Assistant, &eacute; importante definir os conceitos de evento, a&ccedil;&atilde;o e servi&ccedil;o. Esses conceitos desempenham pap&eacute;is fundamentais no sistema. </span></span></span></p>
+Para uma melhor compreensão do funcionamento do Home Assistant, é importante definir os conceitos de evento, ação e serviço. Esses conceitos desempenham papéis fundamentais no sistema. 
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Ao analisar o m&oacute;dulo Home Control mais detalhadamente, podemos dividi-lo em quatro componentes principais:</span></span></span></p>
-
-<ol>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Event Bus (Barramento de Eventos): Respons&aacute;vel por escutar e disparar eventos para os atuadores, mantendo a sincronia do sistema com o mundo real. Quando &eacute; necess&aacute;rio alterar o estado de um atuador ou sensor, o Event Bus dispara as a&ccedil;&otilde;es correspondentes.</span></span></span></li>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">State Machine (M&aacute;quina de Estados): Mant&eacute;m um registro de todos os estados dos atuadores e comunica ao Event Bus quando algum estado &eacute; alterado. Monitora as mudan&ccedil;as de estado e notifica o Event Bus, permitindo o acionamento das a&ccedil;&otilde;es de acordo com essas altera&ccedil;&otilde;es.</span></span></span></li>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Service Registry (Registro de Servi&ccedil;os): Realiza a chamada dos servi&ccedil;os que, por sua vez, executam as a&ccedil;&otilde;es nos atuadores. Gerencia e controla a execu&ccedil;&atilde;o dos servi&ccedil;os, respons&aacute;veis por manipular os atuadores conforme necess&aacute;rio.</span></span></span></li>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Timer (Temporizador): Respons&aacute;vel por atualizar a hora no Event Bus, emitindo um evento de mudan&ccedil;a de tempo a cada segundo para o Home Control. Esse evento &eacute; importante para sincronizar a&ccedil;&otilde;es programadas ou baseadas em hor&aacute;rios espec&iacute;ficos.</span></span></span></li>
+Ao analisar o módulo Home Control mais detalhadamente, podemos dividi-lo em quatro componentes principais:
+<ol> 
+<li>Event Bus (Barramento de Eventos): Responsável por escutar e disparar eventos para os atuadores, mantendo a sincronia do sistema com o mundo real. Quando é necessário alterar o estado de um atuador ou sensor, o Event Bus dispara as ações correspondentes.</li>
+<l1>State Machine (Máquina de Estados): Mantém um registro de todos os estados dos atuadores e comunica ao Event Bus quando algum estado é alterado. Monitora as mudanças de estado e notifica o Event Bus, permitindo o acionamento das ações de acordo com essas alterações.</l1>
+<li>Service Registry (Registro de Serviços): Realiza a chamada dos serviços que, por sua vez, executam as ações nos atuadores. Gerencia e controla a execução dos serviços, responsáveis por manipular os atuadores conforme necessário.</li>
+<li>Timer (Temporizador): Responsável por atualizar a hora no Event Bus, emitindo um evento de mudança de tempo a cada segundo para o Home Control. Esse evento é importante para sincronizar ações programadas ou baseadas em horários específicos.</li>
 </ol>
 
 <p style="text-align:center"><img alt="" src="img/Picture4.png" style="height:400px; width:550px" /></p>
 
-<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Figura 4: Core Arquiteture - Home Assistant</span></span></span></p>
+Figura 4: Core Arquiteture - Home Assistant
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Esses m&oacute;dulos trabalham em conjunto para permitir que o Home Assistant detecte eventos, verifique suas condi&ccedil;&otilde;es e acione as a&ccedil;&otilde;es correspondentes nos atuadores. Essa estrutura modular garante um controle eficiente e responsivo do sistema, permitindo automa&ccedil;&atilde;o e intera&ccedil;&atilde;o com os dispositivos conectados.</span></span></span></p>
 
