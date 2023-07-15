@@ -29,13 +29,15 @@ Uma das vantagens distintas do Home Assistant é sua capacidade de rodar em SBCs
 O Home Assistant oferece várias vantagens, como:
 
 <ul>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Gratuito e de c&oacute;digo aberto</span></span></span></li>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Otimizado para rodar em SBCs</span></span></span></li>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Permite a implanta&ccedil;&atilde;o de automa&ccedil;&otilde;es localmente</span></span></span></li>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">F&aacute;cil instala&ccedil;&atilde;o</span></span></span></li>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Possui uma interface web interativa para controle</span></span></span></li>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Oferece rollback para vers&otilde;es antigas</span></span></span></li>
-	<li style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">&Eacute; escal&aacute;vel, permitindo trabalhar com add-ons</span></span></span></li>
+
+ 
+<li>Gratuito e de código aberto </li>
+<li>Otimizado para rodar em SBCs </li>
+<li>Permite a implantação de automações localmente </li>
+<li>Fácil instalação </li>
+<li>Possui uma interface web interativa para controle </li>
+<li>Oferece rollback para versões antigas </li>
+<li> É escalável, permitindo trabalhar com add-ons </li>
 </ul>
 
 O Home Assistant é projetado para operar de forma autônoma e local, sem depender de uma conexão contínua com a nuvem. Isso significa que todas as automações e regras são executadas diretamente no dispositivo, proporcionando maior privacidade, segurança e desempenho. A instalação do Home Assistant é simplificada e flexível, com opções como o Hass.io, um sistema operacional otimizado para o Home Assistant, que facilita a configuração e o gerenciamento do sistema.
