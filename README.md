@@ -47,7 +47,7 @@ Para instalar o Home Assistant, é recomendado um sistema dedicado como um Raspb
 Existem 4 formas de instalar o Home Assistant:
 <UL>
    <Li>HassOS – Home Assistant Operational System (Sistema Operacional do Home Assistant): Um sistema operacional Linux otimizado para a execução do Home Assistant. Ele conta com o Supervisor para gerenciar o núcleo do Home Assistant e seus add-ons.</Li>
-    <Li>* Home Assistant Container: Instalação do Home Assistant em sistema operacional Linux baseada em containers (Por exemplo, Docker).</Li>
+    <Li>Home Assistant Container: Instalação do Home Assistant em sistema operacional Linux baseada em containers (Por exemplo, Docker).</Li>
     <Li>Home Assistant Supervised: Instalação manual do Home Assistant com suporte ao supervisor para a instalação de add-ons. Esse método deve ser executado em uma instalação de Debian Linux e é o preferido de quem utiliza o mesmo hardware para executar outras tarefas, por exemplo Plex Media Server, entre outros…</Li>
  <Li>Home Assistant Core: Instalação do núcleo do Home Assistant em sistema operacional Linux usando ambiente virtual Python.</Li>
 </UL>
