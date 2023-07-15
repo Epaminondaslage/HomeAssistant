@@ -89,7 +89,7 @@
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Essa arquitetura modular do Home Assistant permite uma abordagem flex&iacute;vel e personaliz&aacute;vel para controlar e automatizar uma casa inteligente. Os diferentes m&oacute;dulos trabalham em conjunto para fornecer uma experi&ecirc;ncia de automa&ccedil;&atilde;o residencial completa e abrangente.</span></span></span></p>
 
-<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-family:&quot;Calibri&quot;,sans-serif">Home Control</span></strong></span></span></p>
+# Home Control
 
 <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">Para uma melhor compreens&atilde;o do funcionamento do Home Assistant, &eacute; importante definir os conceitos de evento, a&ccedil;&atilde;o e servi&ccedil;o. Esses conceitos desempenham pap&eacute;is fundamentais no sistema:</span></span></span></p>
 
