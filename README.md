@@ -169,11 +169,13 @@ Ao utilizar o editor de automações na interface web, precisamos definir quatro
 <li>Ações: Determinamos as ações que devem ser executadas quando a automação é acionada. Isso pode incluir ligar ou desligar dispositivos, enviar notificações, reproduzir sons, entre outras possibilidades.</li>
 </ol>
 <p style="text-align:center"><img alt="" src="img/Picture6.png" style="height:400px; width:550px" /></p>
+
 Figura 6: Tela de menu de configurações do Home Assistant
 
 Através desse processo de configuração, podemos personalizar e adaptar o Home Assistant de acordo com nossas necessidades e criar automações que tornam a experiência de automação residencial mais conveniente e eficiente.
 
 <p style="text-align:center"><img alt="" src="img/Picture7.png" style="height:400px; width:550px" /></p>
+
 Figura 7: Arquivos YAML de configuração do HA</span></span></span></p>
 
 <p>&nbsp;</p>
