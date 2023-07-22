@@ -5,18 +5,12 @@
 
 # Índice 
 
-* [Sites relacionados ao Home Assistant](#Sites-relacionados-ao-Home-Assistant)
 * [Introdução](#Introdução)
 * [Home Assistant Operating System](#Home-Assistant-Operating-System)
 * [Add-on no Home Assistant](#Add-on-no-Home-Assistant)
 * [Módulos do Home Assitant](#Módulos-do-Home-Assistant)
+* [Sites relacionados ao Home Assistant](#Sites-relacionados-ao-Home-Assistant)
 * [Home Control](#Home-Control)
-
-
-# Sites relacionados ao Home Assistant
-
-* https://www.home-assistant.io/
-* https://homeassistantbrasil.com.br/
 
 # Introdução
 
@@ -178,7 +172,10 @@ Através desse processo de configuração, podemos personalizar e adaptar o Home
 
 Figura 7: Arquivos YAML de configuração do HA</span></span></span></p>
 
-<p>&nbsp;</p>
+# Sites relacionados ao Home Assistant
+
+* https://www.home-assistant.io/
+* https://homeassistantbrasil.com.br/
 
 # Status do Projeto
 
