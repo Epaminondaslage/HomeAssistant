@@ -1,7 +1,4 @@
-<td style="width: 20%;"><img src="https://github.com/Epaminondaslage/Automacao-industrial-e-residencial-Ecossistema-didatico/blob/main/img/Logo_CEFET-MG.png" width="20%"></td>
-<p><strong>Home Assistant </strong></p>
-<p><strong>Prof Epaminondas Lage</strong></p>
-<a href="http://lattes.cnpq.br/7787341723868111"> Currículo Lattes LAGE, E. S.</a> 
+<td style="width: 20%;"><img src="/img/top_home_assistant.png" width="100%"></td>
 
 # Índice 
 
@@ -13,8 +10,6 @@
 * [Home Control](#Home-Control)
 
 # Introdução
-
-<p style="text-align:justify"><img alt="" src="img/Picture1.jpg" style="height:150px; width:150px" /></p>
 
 O Home Assistant é uma plataforma de automação residencial descentralizada, gratuita e de código aberto. Ele possibilita o controle de atuadores, interpretação de dados coletados por sensores, implementação de regras de automação e gerenciamento da comunicação entre dispositivos. O Home Assistant pode ser executado em computadores Linux, em SBCs (Single Board Computers) com o sistema operacional dedicado Hass.io, ou em qualquer outro ambiente que possua Python e suas dependências instaladas.
 
